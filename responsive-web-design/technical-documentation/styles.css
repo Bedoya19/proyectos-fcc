@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    color: rgb(166, 166, 166);
+}
+
+header {
+    font-weight: 700px;
+    font-size: 2rem;
+    color: white;
+}
+
+.main-doc {
+    background: red;
+    overflow: auto;
+}
+
+#navbar ul {
+    float: left;
+    width: 92%;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#navbar header {
+    text-align: center;
+}
+
+.main-section header {
+    text-decoration: underline;
+}
+
+#navbar ul li {
+    border: 1px solid rgb(166, 166, 166);
+    overflow: hidden;
+}
+
+.main-section {
+    padding: 0 35px;
+}
+
+.main-section p {
+    text-indent: 30px;
+}
+
+.code-box {
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    padding: 8px;
+    font-size: 0.85em;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+@media (min-width: 800px) {
+    /*#main-doc {
+        display: flex;
+        position: relative;
+    }*/
+    #navbar {
+        position: fixed;
+        width: 275px;
+        height: 100%;
+        z-index: 1;
+    }
+    #navbar ul {
+        height: 100%;
+        position: relative;
+        left: -25px;
+    }
+    .main-section {
+        margin-left: 275px;
+    }
+}
+
+.code-indent {
+    margin-left: 36px;
+}
+
+.divider {
+    border-bottom: 1.5px solid white;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 7px;
+}
+
+#navbar ul li:hover {
+    background-color: rgb(166, 166, 166);
+    color: black;
+}

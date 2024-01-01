@@ -1,0 +1,447 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Landing Page</title>
+        <link
+            rel="stylesheet"
+            href="./styles.css"
+        >
+        <link 
+            rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        >
+        <link 
+            rel="preconnect" 
+            href="https://fonts.googleapis.com"
+        >
+        <link 
+            rel="preconnect" 
+            href="https://fonts.gstatic.com" 
+            crossorigin
+        >
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" 
+            rel="stylesheet"
+        >
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" 
+            rel="stylesheet"
+        >
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" 
+            rel="stylesheet"
+        >
+    </head>
+    <body>
+        <header id="header">
+            <a href="#"><img src="https://raw.githubusercontent.com/Bedoya19/prueba-imagenes/4919c2c9395fec7c86cfc607cefb3d8e722ea472/pianologo.jpg" id="header-img" alt="PianoMaker Logo" width="300"></a>
+            <nav id="nav-bar">
+                <div>
+                    <ul id="nav-links">
+                        <li><a class="nav-link" href="#main-specifications">Main specifications</a></li>
+                        <li><a class="nav-link" href="#features">Features</a></li>
+                        <li><a class="nav-link" href="#video-presentation">Video presentation</a></li>
+                        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div id="main-content">
+            <section id="main-specifications">
+                <h2>Maximum quality portable pianos</h2>
+                <div>
+                    <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+                        <fieldset>
+                            <label for="email">All the tools and equipment you need to create quality music, includes learning resources at a low cost.</label>
+                            <input id="email" name="email" type="email" required placeholder="Enter your email">
+                        </fieldset>
+                        <input id="submit" type="submit" value="Get started with pianos">
+                    </form>
+                </div>
+            </section>
+            <section id="features">
+                <div id="feature-1">
+                    <i class="fa fa-music"></i>  
+                    <h3></i>Unique sound quality</h3>
+                    <p>
+                        Our pianos have groundbreaking technology that creates effects and sounds of incredible quality. Includes a library of hundreds of
+                        instruments, you can play any type and genre of music.
+                    </p>
+                </div>
+                <div id="feature-2">
+                    <i class="fa fa-heart"></i>
+                    <h3>Enjoy playing</h3>
+                    <p>
+                        With a group of quality effects, the piano has a sensitive pulsation that lets you play the most delicate nuances. 
+                    </p>
+                </div>
+                <div id="feature-3">
+                    <i class="fa fa-graduation-cap"></i>
+                    <h3>Learning functions</h3>
+                    <p>
+                        With the learn mode you can learn incorporated songs. This tool helps you practice and improve your skills at piano. The
+                        mode is made for the most optimal and efficient way to learn according to your needs.
+                    </p>
+                </div>
+            </section>
+            <section id="video-presentation">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/5sMm8kjWryg" title="Yamaha Portable Keyboard PSR-EW425" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div id="basic-model">
+                    <h3 class="model-title">Basic Model</h3>
+                    <div class="piano-content">
+                        <p class="price">$500</p>
+                        <p>
+                            <ul class="piano-features">
+                                <li>Great for begginers</li>
+                                <li>Perfect to learn to play piano</li>
+                            </ul>
+                            <p class="select-link"><a href="#">SELECT</a></p>
+                        </p>
+                    </div>
+                </div>
+                <div id="standart-model">
+                    <h3 class="model-title">Standart Model</h3>
+                    <div class="piano-content">
+                        <p class="price">$650</p>
+                        <p>
+                            <ul class="piano-features">
+                                <li>Great for all users</li>
+                                <li>Made for live plays</li>
+                            </ul>
+                            <p class="select-link"><a href="#">SELECT</a></p>
+                        </p>
+                    </div>
+                </div>
+                <div id="experimental-model">
+                    <h3 class="model-title">Experimental Model</h3>
+                    <div class="piano-content">
+                        <p class="price">$800</p>
+                        <p>
+                            <ul class="piano-features">
+                                <li>Great for experienced users</li>
+                                <li>Advanced learning tools.</li>
+                            </ul>
+                            <p class="select-link"><a href="#">SELECT</a></p>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div id="footer-links">
+                <a href="#"><p>About Us</p></a>
+                <a href="#"><p>Contact</p></a>
+                <a href="#"><p>Terms</p></a>
+                <a href="#"><p>Privacy</p></a>
+            </div>
+            <p>Copyright 2023, PianoMaker</p>
+        </footer>
+    </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+    --bg-color-buttom: white;
+    --bg-color-buttom-hover: black;
+    --border-buttom: 2px solid black;
+    --border-buttom-hover: 2px solid grey;
+    --color-text-buttom: black;
+    --color-text-buttom-hover: white;
+}
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+#header {
+    background-color: white;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+#header #nav-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+    padding: 5px;
+}
+.nav-link {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+.nav-link:visited {
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+    background-color: var(--bg-color-buttom-hover);
+    color: var(--color-text-buttom-hover);
+    border: var(--border-buttom-hover);
+}
+#main-content {
+    gap: 25px;
+    margin: 75px 100px 25px 100px;
+    padding: 0 20px 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#main-specifications h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+#main-specifications form{
+    text-align: center;
+    font-size: 1.3em;
+}
+#main-specifications fieldset {
+    border: none;
+    padding-bottom: 7px;
+}
+input[type="email"] {
+    padding: 10px 15px;
+    width: 275px;
+    border: var(--border-buttom);
+    outline: none;
+    border-radius: 5px;
+}
+input[type="email"]:focus {
+    background-color: var(--bg-color-buttom-hover);
+    border: var(--border-buttom-hover);
+    color: var(--color-text-buttom-hover)
+}
+input[type="submit"] {
+    text-align: center;
+    padding: 7px 10px;
+    width: 200px;
+    border: var(--border-buttom);
+    color: var(--color-text-buttom);
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+input[type="submit"]:hover {
+    background-color: var(--bg-color-buttom-hover);
+    border: var(--border-buttom-hover);
+    color: var(--color-text-buttom-hover);
+    cursor: pointer;
+}
+
+#features {
+    padding: 35px 0;
+    
+}
+
+#features div {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-auto-rows: minmax(30px auto);
+    grid-column-gap: 30px;
+    padding: 30px 75px;
+    text-align: justify;
+    font-size: 1.15em;
+}
+#features div i {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+#features div h3 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+#features div p {
+    grid-column: 2 / 3;
+    grid-row: 2;
+}
+
+#pricing {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(1fr, auto);
+    grid-column-gap: 45px;
+    padding: 50px 20px 35px 20px;
+    justify-content: center;
+    /*/align-items: center;/*/
+}
+#basic-model {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
+#standart-model {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+#experimental-model {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+.model-title {
+    font-size: 1.45em;
+    text-align: center;
+    grid-row: 1;
+    padding: 12px 0 12px 0;
+    border: 2px solid black;
+}
+#basic-model .model-title {
+    background-color: rgb(182, 182, 182);
+}
+#standart-model .model-title {
+    background-color: rgb(200, 171, 3);
+}
+#experimental-model .model-title {
+    background-color: rgb(110, 179, 194);
+}
+.piano-content {
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    grid-row: 2 / 4;
+    border: 2px solid black;
+}
+.price {
+    font-size: 1.75em;
+    font-weight: 500;
+    font-family: 'Lilita One', cursive;
+    padding-top: 30px;
+}
+.piano-features {
+    list-style-type: none;
+    grid-row: 2;
+    padding: 40px 0;
+    font-size: 0.9em;
+    line-height: 1.75em;
+}
+.select-link {
+    grid-row: 3;
+}
+.select-link a {
+    background-color: var(--bg-color-buttom);
+    text-decoration: none;
+    font-family: 'Lilita One', cursive;
+    letter-spacing: 0.25em;
+    color: var(--color-text-buttom);
+    padding: 10px 25px;
+    border: var(--border-buttom);
+}
+.select-link a:hover {
+    background-color: var(--bg-color-buttom-hover);
+    color: var(--color-text-buttom-hover);
+    border: var(--border-buttom-hover);
+}
+
+#video-presentation > iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: rgb(64, 64, 64);
+    text-align: left;
+}
+#footer-links {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25px;
+    padding: 10px 30px 10px 0;
+}
+#footer-links a {
+  color: white;
+}
+footer > p {
+    text-align: end;
+    color: rgb(164, 164, 164);
+    padding: 0 32px 10px 0;
+}
+
+@media (max-width: 1050px) {
+    .model-title {
+        font-size: 1.25em;
+    }
+    #pricing {
+        grid-column-gap: 20px;
+    }
+}
+@media (max-width: 890px) {
+    #pricing {
+        display: block;
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .piano-content {
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 800px) {
+    iframe {
+        width: 100%;
+    }
+}
+@media (max-width: 751px) {
+    #main-content {
+        margin: 45px 0 0 0;
+        border-radius: 0;
+    }
+}
+@media (max-width: 660px) {
+    #header {
+        display: block;
+    }
+    #header #nav-links {
+        justify-content: center;
+    }
+    #main-content {
+        margin: 90px 0 0 0;
+    }
+    #features div {
+        padding: 30px 0;
+    }
+}
+
+** end of undefined **
+
